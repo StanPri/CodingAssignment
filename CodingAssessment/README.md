@@ -64,8 +64,8 @@ b. Use configuration files or another industry standard mechanism for determinin
 
 ```csharp
 //In-memory database is injected into the service container and can be replaced by another DB
-services.AddDbContext<TodoContext>(opt => 
-                opt.UseInMemoryDatabase("TodoList"));
+services.AddDbContext<OutputMessageContext>(opt =>
+                opt.UseInMemoryDatabase("OutMessage"));
 ```
 ### Support of CRUD operations
 In order to demonstrate the database functionality, the user can use displayed browser page.
@@ -77,7 +77,8 @@ PUT /api/outputmessage/{id}
 DELETE /api/outputmessage/{id} 
 
 ### Unit tests to support the API
-A String library has been added to Coding Assignment project with simple functions. I added StringLibraryUnitTests in order to test the library.
+A String library has been added to Coding Assignment project with simple string functions. I added StringLibraryUnitTests in order to test the library.
+In Visual Studio, go to 'Test' up top, then Run / All Tests.
 
 ## Author
 

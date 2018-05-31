@@ -69,14 +69,12 @@ services.AddDbContext<TodoContext>(opt =>
 ```
 ### Support of CRUD operations
 In order to demonstrate the database functionality, the user can use displayed browser page.
-Also, Postman can be used to hit API's endpoints:
-| API        | Description           | 
-| --- |---| 
-| GET /api/outputmessage     | Get all to-do items | 
-| GET /api/outputmessage/{id}     | Get an item by ID      |  
-| POST /api/outputmessage | Add a new item      |
-| PUT /api/outputmessage/{id}      | Update an existing item | 
-| DELETE /api/outputmessage/{id}       | Delete an item      | 
+Also, Postman can be used to hit API's endpoints:       
+GET /api/outputmessage     
+GET /api/outputmessage/{id}     
+POST /api/outputmessage 
+PUT /api/outputmessage/{id}      
+DELETE /api/outputmessage/{id} 
 
 ### Unit tests to support the API
 

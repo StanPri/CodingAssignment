@@ -77,8 +77,8 @@ PUT /api/outputmessage/{id}
 DELETE /api/outputmessage/{id} 
 
 ### Unit tests to support the API
-
+A String library has been added to Coding Assignment project with simple functions. I added StringLibraryUnitTests in order to test the library.
 
 ## Author
 
-* **Stanislav Pribytkovsky** project.
+* **Stanislav Pribytkovsky** project (with Microsoft Docs help)

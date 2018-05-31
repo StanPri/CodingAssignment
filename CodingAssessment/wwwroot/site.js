@@ -40,8 +40,7 @@ function getData() {
 
 function addItem() {
     const item = {
-        'message': $('#add-message').val(),
-        'isComplete': false
+        'message': $('#add-message').val()
     };
 
     $.ajax({
@@ -75,7 +74,6 @@ function editItem(id) {
         if (item.id === id) {
             $('#edit-message').val(item.message);
             $('#edit-id').val(item.id);
-            $('#edit-isComplete').val(item.isComplete);
         }
     });
     $('#spoiler').css({ 'display': 'block' });
